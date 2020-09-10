@@ -1,0 +1,20 @@
+{
+  "name": "testews",
+  "version": "1.0.0",
+  "description": "Workspace test",
+  "main": "index.js",
+  "author": "Renato Rodrigues",
+  "license": "MIT",
+  "private": true,
+  "workspaces": {
+    "packages": [
+      "packages/*"
+    ],
+    "nohoist": [
+      "mypkg1/**"
+    ]
+  },
+  "devDependencies": {
+    "husky": "^4.3.0"
+  }
+}
