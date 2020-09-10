@@ -11,7 +11,8 @@
       "packages/*"
     ],
     "nohoist": [
-      "mypkg1/**"
+      "mypkg1/**",
+      "tsdx1/**"
     ]
   },
   "devDependencies": {
